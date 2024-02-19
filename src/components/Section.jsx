@@ -1,5 +1,6 @@
 import React from "react";
 import InfoBoxWrapper from "./InfoBoxWrapper";
+import "./Section.css";
 
 const Section = ({ id, title, paragraph1Text, paragraph2Text, children }) => {
   return (
@@ -8,8 +9,8 @@ const Section = ({ id, title, paragraph1Text, paragraph2Text, children }) => {
         <h1>{title}</h1>
       </header>
       <main>
-        <p className="infoText">{paragraph1Text}</p>
-        <p className="infoText">{paragraph2Text}</p>
+        <p>{paragraph1Text}</p>
+        <p>{paragraph2Text}</p>
         <InfoBoxWrapper children={children} />
       </main>
     </section>

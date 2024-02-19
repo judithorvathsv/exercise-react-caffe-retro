@@ -1,4 +1,5 @@
 import React from "react";
+import "./InfoBox.css";
 
 const InfoBox = ({ text1, text2 }) => {
   return (

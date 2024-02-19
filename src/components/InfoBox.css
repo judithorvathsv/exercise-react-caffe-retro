@@ -1,0 +1,37 @@
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.infoBox > p {
+  width: 200px;
+  margin: -15px;
+}
+
+.infoBox > p:first-of-type {
+  text-align: start;
+  width: 350px;
+}
+
+.infoBox > p:nth-of-type(2) {
+  text-align: end;
+  width: 150px;
+}
+
+@media only screen and (max-width: 1282px) {
+  .infoBox {
+    border: 2px solid red;
+  }
+
+  .infoBox > p {
+    width: 200px;
+  }
+
+  .infoBox > p:first-of-type,
+  .infoBox > p:nth-of-type(2) {
+    text-align: center;
+    width: 200px;
+  }
+}

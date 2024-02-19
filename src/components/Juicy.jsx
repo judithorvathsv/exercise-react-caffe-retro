@@ -2,6 +2,7 @@ import React from "react";
 import InfoBox from "./InfoBox";
 import Section from "./Section";
 
+
 const Juicy = () => {
   const info = {
     id: "juicy",
