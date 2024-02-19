@@ -32,6 +32,6 @@
   .infoBox > p:first-of-type,
   .infoBox > p:nth-of-type(2) {
     text-align: center;
-    width: 200px;
+    width: 40vw;
   }
 }
