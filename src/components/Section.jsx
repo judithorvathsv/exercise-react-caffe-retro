@@ -7,7 +7,7 @@ const Section = ({ id, title, paragraph1Text, paragraph2Text, children }) => {
       <header>
         <h1>{title}</h1>
       </header>
-      <main className="centeredBox">
+      <main>
         <p className="infoText">{paragraph1Text}</p>
         <p className="infoText">{paragraph2Text}</p>
         <InfoBoxWrapper children={children} />
