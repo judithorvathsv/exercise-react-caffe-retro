@@ -25,9 +25,9 @@ export function App() {
   return (
     <>
       <NavBar />
+      <Hot />
       <Juicy />
       <Cozy />
-      <Hot />
     </>
   );
 }

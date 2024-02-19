@@ -4,8 +4,8 @@ import Section from "./Section";
 
 const Cozy = () => {
   const info = {
-    id: "hot",
-    title: "Hot",
+    id: "cosy",
+    title: "Cosy",
     paragraph1Text: "Hot freshly ground black coffee or a cup of exquisite tea?",
     paragraph2Text: "We give you that perfect cup every time.",
   };
